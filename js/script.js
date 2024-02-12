@@ -10,6 +10,10 @@ document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('activate');
 }
 
+document.querySelector('#close-login-btn').onclick = () => {
+    loginForm.classList.remove('activate');
+}
+
 window.onscroll = () => {
 
     searchForm.classList.remove('active');
